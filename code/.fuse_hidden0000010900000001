@@ -1,9 +1,0 @@
-import csv
-import sys
-reader=csv.reader(open("./../dataset/output/"+sys.argv[1],"rt"))
-i,x=0,5
-for row in reader:
-	print row[0],row[1]
-	if i>x:
-		break
-	i=i+1
